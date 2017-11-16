@@ -32,7 +32,7 @@ Options
 
   -f, --file file    Path to your summary.json (default : /home/chrome/reports/summary.json)       
   -r, --rules json   JSON of an object explaining the title of the rule and the JSONPath rule. Can 
-                     be multiple (usr -r for each rule)                                            
+                     be multiple (use -r for each rule)                                            
                                                                                                    
                      Example: -r "{\"Interactive value\": \"\$.audits['consistently-               
                      interactive'].displayValue\"}"                                                

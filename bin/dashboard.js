@@ -16,7 +16,7 @@ const optionDefinitions = {
             multiple: true,
             alias: 'r',
             typeLabel: '[underline]{json}',
-            description: 'JSON of an object explaining the title of the rule and the JSONPath rule. Can be multiple (usr -r for each rule)\n\n'
+            description: 'JSON of an object explaining the title of the rule and the JSONPath rule. Can be multiple (use -r for each rule)\n\n'
             + '[underline]{Example}: -r "{\\"Interactive value\\": \\"\\$.audits[\'consistently-interactive\'].displayValue\\"}"'
         },
         {
