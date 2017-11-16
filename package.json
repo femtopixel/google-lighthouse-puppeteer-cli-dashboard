@@ -1,0 +1,35 @@
+{
+  "name": "google-lighthouse-puppeteer-cli-dashboard",
+  "version": "0.1.0",
+  "description": "Google Lighthouse Puppeteer Cli Dashboard is a package that displays a simple table in CLI to overview your report",
+  "main": "dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femtopixel/google-lighthouse-puppeteer-cli-dashboard.git"
+  },
+  "keywords": [
+    "google",
+    "lighthouse",
+    "puppeteer",
+    "cli",
+    "dashboard"
+  ],
+  "bin": {
+    "lp-dashboard": "./bin/dashboard.js"
+  },
+  "dependencies": {
+    "command-line-usage": "^4.0.1",
+    "command-line-args": "^4.0.7",
+    "jsonpath": "^1.0.0",
+    "table": "^4.0.2"
+  },
+  "author": "Jay MOULIN <jaymoulin@gmail.com> (https://jaymoulin.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/femtopixel/google-lighthouse-puppeteer-cli-dashboard/issues"
+  },
+  "homepage": "https://github.com/femtopixel/google-lighthouse-puppeteer-cli-dashboard#readme"
+}
