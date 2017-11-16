@@ -1,4 +1,4 @@
-globalGoogle Lighthouse Puppeteer - Docker Image
+Google Lighthouse Puppeteer - Docker Image
 ============================================
 
 [![latest release](https://img.shields.io/github/release/femtopixel/google-lighthouse-puppeteer-cli-dashboard.svg "latest release")](http://github.com/femtopixel/google-lighthouse-puppeteer-cli-dashboard/releases)
