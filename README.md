@@ -1,5 +1,5 @@
-Google Lighthouse Puppeteer - Docker Image
-============================================
+Google Lighthouse Puppeteer Cli Dashboard
+=========================================
 
 [![latest release](https://img.shields.io/github/release/femtopixel/google-lighthouse-puppeteer-cli-dashboard.svg "latest release")](http://github.com/femtopixel/google-lighthouse-puppeteer-cli-dashboard/releases)
 [![NPM release](https://img.shields.io/npm/v/google-lighthouse-puppeteer-cli-dashboard.svg "NPM release")](https://www.npmjs.com/package/google-lighthouse-puppeteer-cli-dashboard)
@@ -50,7 +50,6 @@ Output
 ╟───────────────────────────────────────────────────────────┼───────────────────╢
 ║ https://myawesome.site/admin/heavypage/list?id=12         │ 8,610 ms          ║
 ╚═══════════════════════════════════════════════════════════╧═══════════════════╝
-
 ```
 
 Package Usage
