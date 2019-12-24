@@ -1,5 +1,9 @@
-.PHONY=install install-npm publish publish-npm
-
+NPM ?= update
+.PHONY=install install-npm publish publish-npm npm
+publish-npm: install-npm
+	npm login && npm publish
+npm:
+	docker run --rm -v $$HOME:/root -v `pwd`:/app -ti -w /app node npm ${NPM}
 install:
 	docker run --rm -v `pwd`:/app -ti -w /app node make install-npm
 publish:
@@ -16,5 +20,3 @@ clean:
 	rm -Rf node_modules
 install-npm: clean
 	npm pack
-publish-npm: install-npm
-	npm login && npm publish
