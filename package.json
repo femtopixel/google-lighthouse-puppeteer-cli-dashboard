@@ -26,7 +26,7 @@
     "jsonpath": "^1.0.0",
     "table": "^5.4.1"
   },
-  "author": "Jay MOULIN <jay@femtopixel.com> (https://femtopixel.com)",
+  "author": "Jay MOULIN <jay@femtopixel.com> (https://jaymoulin.me)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/femtopixel/google-lighthouse-puppeteer-cli-dashboard/issues"
