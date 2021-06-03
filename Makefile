@@ -1,7 +1,9 @@
 NPM ?= update
-.PHONY=install install-npm publish publish-npm npm
-publish-npm: install-npm
-	npm login && npm publish
+VERSION ?= 1.1.0
+CACHE ?= --no-cache=1
+FULLVERSION ?= ${VERSION}
+.PHONY: install install-npm publish publish-npm npm all major minor patch clean
+all: install publish
 npm:
 	docker run --rm -v $$HOME:/root -v `pwd`:/app -ti -w /app node npm ${NPM}
 install:
@@ -20,3 +22,5 @@ clean:
 	rm -Rf node_modules
 install-npm: clean
 	npm pack
+publish-npm: install-npm
+	npm login && npm publish
