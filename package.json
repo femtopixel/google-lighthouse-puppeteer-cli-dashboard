@@ -1,6 +1,6 @@
 {
   "name": "google-lighthouse-puppeteer-cli-dashboard",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Google Lighthouse Puppeteer Cli Dashboard is a package that displays a simple table in CLI to overview your report",
   "main": "dashboard.js",
   "scripts": {
